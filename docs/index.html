@@ -16,8 +16,11 @@
       name: 'lyceum',
       repo: 'https://github.com/lyceum-eot/lyceum-eot.github.io',
       loadSidebar: true,
-      subMaxLevel: 2,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       auto2top: true,
+      search: 'auto'  
     }
   </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
